@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de interessados</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Interessados</h1>
+  </header>
+
+  <main>
+    <form action="/listaInteressados" method="post">
+      <label for="inome">Nome: </label>
+      <input type="text" name="nome" id="inome" placeholder="Digite o seu nome."><br>
+
+      <label for="iemail">Email: </label>
+      <input type="email" name="email" id="iemail" placeholder="Digite o seu email."><br>
+
+      <label for="itel">Telefone: </label>
+      <input type="tel" name="tel" id="itel" placeholder="Digite o seu telefone"><br>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>

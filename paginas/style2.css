@@ -1,0 +1,51 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header{
+  background-color: black;
+  padding: 1%;
+  margin-bottom: 5%;
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+  text-decoration: underline;
+}
+
+main{
+  background-color: rgba(125, 240, 201, 0.685);
+  border: 2px solid rgba(0, 0, 0, 0.301);
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  width: 330px;
+  height: 150px;
+}
+
+label{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input{
+  margin-bottom: 3%;
+  margin-top: 3%;
+  padding: 0.6%;
+  border-radius: 4px;
+}
+
+button{
+  background-color: rgba(164, 240, 88, 0.753);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
