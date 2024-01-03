@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Pets</h1>
+  </header>
+
+  <main>
+    <form action="/listaPets" method="post">
+      <label for="inome">Nome: </label>
+      <input type="text" name="nome" id="inome" placeholder="Digite o nome do pet."><br>
+
+      <label for="iraca">Raça: </label>
+      <input type="text" name="raca" id="iraca" placeholder="Digite a raça do pet."><br>
+
+      <label for="iidade">Idade em anos: </label>
+      <input type="number" name="idade" id="iidade" placeholder="Digite a idade em anos do pet"><br>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>
